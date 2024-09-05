@@ -12,7 +12,7 @@ body {
     background: #1647da;
     background: linear-gradient(to right, #859398, #283048);
     padding: 20px; 
-    
+    overflow :hidden;
 }
 
 .container-carousel {
