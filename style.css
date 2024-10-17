@@ -33,14 +33,14 @@ body {
 }
 
 .slider-section {
-    width: calc(100% /1);
+    width: calc(100% /2);
     height: 100%;
 }
 
 .slider-section img {
     width: 50%;
     height: 100%;
-    object-fit:calc(100%/1);
+    object-fit:calc(100%/2);
     border-radius: 15px;
 }
 
