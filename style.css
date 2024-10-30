@@ -28,9 +28,9 @@ body {
 }
 /* en widgt es la cantida de imagenes  */
 .carruseles {
-    width: 200%;
+    width: 220%;
     height: 100%;
-    display: flex;
+    display:flex;
 }
 
 .slider-section {
@@ -42,7 +42,7 @@ body {
 .slider-section img {
     width: 50%;
     height: 100%;
-    object-fit:calc(200%/1);
+    object-fit:calc(100%/1);
     border-radius: 15px;
    
 }
@@ -77,4 +77,5 @@ body {
 .btn-right {
     right: 10px;
 }
+
 
