@@ -18,7 +18,7 @@ body {
 
 .container-carousel {
     position: relative;
-    width:  170%;
+    width:  160%;
     height: 90%;
     background-color: #e0e0e0;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.66);
@@ -34,13 +34,13 @@ body {
 }
 
 .slider-section {
-    width: calc(110% /1);
+    width: calc(102% /1);
     height: 100%;
     
 }
 
 .slider-section img {
-    width: 110%;
+    width: 102%;
     height: 100%;
     object-fit:calc(100%/1);
     border-radius: 15px;
