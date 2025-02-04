@@ -28,19 +28,19 @@ body {
 }
 /* en widgt es la cantida de imagenes  */
 .carruseles {
-    width: 130%;
+    width: 160%;
     height: 100%;
     display:flex;
 }
 
 .slider-section {
-    width: calc(130% /1);
+    width: calc(160% /1);
     height: 100%;
     
 }
 
 .slider-section img {
-    width: 130%;
+    width: 160%;
     height: 100%;
     object-fit:calc(100%/1);
     border-radius: 15px;
