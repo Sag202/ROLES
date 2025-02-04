@@ -12,39 +12,35 @@ body {
     background: #1647da;
     background: linear-gradient(to right, #859398, #283048);
     padding: 20px; 
-    overflow :hidden;
-
+    overflow: hidden;
 }
 
 .container-carousel {
     position: relative;
-    width:  100%;
+    width: 100%;
     height: 100%;
     background-color: #e0e0e0;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.66);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5); /* Ajusté la sombra */
     border-radius: 20px;
-    overflow: visible;
-   
+    overflow: hidden; /* Ajusté el overflow */
 }
-/* en widgt es la cantida de imagenes  */
+
 .carruseles {
     width: 100%;
     height: 100%;
-    display:flex;
+    display: flex;
 }
 
 .slider-section {
-    width: calc(100% /1);
+    width: 100%; /* Simplificado el width */
     height: 100%;
-    
 }
 
 .slider-section img {
     width: 100%;
     height: 100%;
-    object-fit:calc(100%/1);
+    object-fit: cover; /* Ajustado para que la imagen cubra el área */
     border-radius: 15px;
-   
 }
 
 .btn-left,
@@ -59,8 +55,8 @@ body {
     font-weight: 600;
     cursor: pointer;
     color: #ffffff81;
-    transform: translate(0,-50%);
-    transition: .5s ease;
+    transform: translate(0, -50%);
+    transition: 0.5s ease;
     user-select: none;
 }
 
@@ -77,5 +73,4 @@ body {
 .btn-right {
     right: 10px;
 }
-
 
