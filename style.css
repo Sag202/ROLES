@@ -28,7 +28,7 @@ body {
 }
 /* en widgt es la cantida de imagenes  */
 .carruseles {
-    width: 220%;
+    width: 210%;
     height: 100%;
     display:flex;
 }
