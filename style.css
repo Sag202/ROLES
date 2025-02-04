@@ -19,7 +19,7 @@ body {
 .container-carousel {
     position: relative;
     width:  200%;
-    height: 90%;
+    height: 100%;
     background-color: #e0e0e0;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.66);
     border-radius: 20px;
@@ -34,13 +34,13 @@ body {
 }
 
 .slider-section {
-    width: calc(210% /1);
+    width: calc(180% /1);
     height: 100%;
     
 }
 
 .slider-section img {
-    width: 210%;
+    width: 180%;
     height: 100%;
     object-fit:calc(100%/1);
     border-radius: 15px;
